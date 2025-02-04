@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="invInduvidualPanes">
+    <Position X="18" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgBAAACAAAAAAABAAAAAAEAAAAAAoAAgAAQAAgoA=</HashCode>
+      <FileName>Assets\scripts\invInduvidualPanes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour">
+    <Position X="21" Y="34" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="mainmenu">
+    <Position X="22" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAAAAAASAgAABAAAAAAAgAAQAFAEA=</HashCode>
+      <FileName>Assets\scripts\mainmenu\mainmenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatManager">
+    <Position X="26.25" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAQBABAAEMAAAAABACAgAEAAIAAAAAQAUAAAAAgAA=</HashCode>
+      <FileName>Assets\scripts\playStats\playerStatManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="playerStatsPresets">
+    <Position X="15.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABARAACAAAAAABAAAAAAAAAAAAAAQAQCAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\playStats\playerStatsPresets.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="statsScriptable">
+    <Position X="44" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\playStats\statsScriptable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bioHabPuzzle">
+    <Position X="25.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAABAAAiAQGAAAAJACAAEQgEQAAQABAAgCAAAAAgA=</HashCode>
+      <FileName>Assets\scripts\puzzles\habBlockPuzzles\bioHabPuzzle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="challengeCheck">
+    <Position X="27.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQCARBAACAAAGAABZACAAACAAAAUAAwIAACAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\challengeCheck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="interactor">
+    <Position X="23.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAACAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\interactor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nonPuzzleTubes">
+    <Position X="15.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAACAAAAAAAAAAAAAAAAAgIAAAAAAAAIA=</HashCode>
+      <FileName>Assets\scripts\puzzles\nonPuzzleTubes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rotatetoobz">
+    <Position X="37.25" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAgCAIABAEAAAAAAAEAAAAAAAgIAAAAAQAAIA=</HashCode>
+      <FileName>Assets\scripts\puzzles\rotate toobz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="toWin">
+    <Position X="25.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAABAAAKAwAAAAABACgAAAAAAABAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\toWin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coinsScript">
+    <Position X="33.25" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\scriptable\items\coinsScript.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="serializableDictionary&lt;Tkey, Tvalue&gt;" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAEAAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\scripts\scriptable\serializable\serializableDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="doorsandsign">
+    <Position X="40.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAQAAAAAAIAAAAAAAAAAgAAAAAEAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\scripts\scriptable\doorsandsign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="inventoryItemData">
+    <Position X="42.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAgAAAAAAAAAIAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\scriptable\inventoryItemData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="buttonTracker">
+    <Position X="7.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARAABH0ACAAAIAAABIIAAAAQlAAAAAABAAAAQIABAA=</HashCode>
+      <FileName>Assets\scripts\buttonTracker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="collectableobject">
+    <Position X="11.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\scripts\collectableobject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="computer">
+    <Position X="35.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAACAAAAAAIAIAAAAAAABACAAgIAAAAAIAAAA=</HashCode>
+      <FileName>Assets\scripts\computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="doorcontroller">
+    <Position X="22.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAQAABSAACAgAAAAABAAAAAAAEIAAAAABAAAAAIAAAA=</HashCode>
+      <FileName>Assets\scripts\doorcontroller.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="doorTracker">
+    <Position X="23.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABCEACAgAAAAABAAAAgAAEIAAAAAAAAAABIAAAA=</HashCode>
+      <FileName>Assets\scripts\doorTracker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="inputManager">
+    <Position X="11.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAABAQkAAAABAAAAAAAACABABACAACAFAECABAAEA=</HashCode>
+      <FileName>Assets\scripts\inputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="interactable">
+    <Position X="19.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAEAA=</HashCode>
+      <FileName>Assets\scripts\interactable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leveltransition">
+    <Position X="18" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQCAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAgCAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\leveltransition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="menuaudio">
+    <Position X="29.25" Y="26" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\scripts\menu audio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="noLockDoor">
+    <Position X="19.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAEASAACAAAAAAAAAAAAAAAEIAAAAAAAAAAAIAAAE=</HashCode>
+      <FileName>Assets\scripts\noLockDoor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="panelPopsUpProximity">
+    <Position X="15.75" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQIAAAA=</HashCode>
+      <FileName>Assets\scripts\panelPopsUpProximity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pickupableItem">
+    <Position X="20" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAABCEECAAAAAAAJACAAAQAEAAIAJQAAgQAAIABAA=</HashCode>
+      <FileName>Assets\scripts\pickupableItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="playerCharacer">
+    <Position X="7.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQIABQAEiABAAAAABAFgQAAQgEICACAACkJEAAwggA=</HashCode>
+      <FileName>Assets\scripts\playerCharacer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pointcounter">
+    <Position X="35.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAABAQAAA=</HashCode>
+      <FileName>Assets\scripts\pointcounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Captscript">
+    <Position X="29.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAASAAAAAAABAAAAAAAAAAAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Captscript.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="gameData">
+    <Position X="44" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAACAwAAAAAAAIAAAQAEQAQAAAAAAIIAwAAgQAgAA=</HashCode>
+      <FileName>Assets\scripts\dataPersistence\data\gameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dataHandler">
+    <Position X="44.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAICAAABAAEAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\dataPersistence\dataHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dataPersistenceManager">
+    <Position X="13.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAZAAAAAAAAACEAAAAQAgIgBgAAAoAEAAAAAIDEE=</HashCode>
+      <FileName>Assets\scripts\dataPersistence\dataPersistenceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="debugNPC">
+    <Position X="11.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAACQAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\dialoge\debug\debugNPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dialogueManager">
+    <Position X="33.25" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACRAIAAkAKAEAIAAAAAIAAAAEgpCABwAMBAQABEAoEA=</HashCode>
+      <FileName>Assets\scripts\dialoge\dialogueManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dialogueTrigger">
+    <Position X="35.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAGEACAAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\dialoge\dialogueTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dialogueVariables">
+    <Position X="42.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAACAAAECAA=</HashCode>
+      <FileName>Assets\scripts\dialoge\dialogueVariables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="epilougeTransition">
+    <Position X="9.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\finalPuzzle\epilougeTransition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hole">
+    <Position X="24.25" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACEAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\finalPuzzle\hole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="buttonTrackerPhys">
+    <Position X="15.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARAABD0ACAAAIAAAJIIAAAAQlAAAAAABAACAQIABAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\habBlockPuzzles\doorTrackers\buttonTrackerPhys.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="buttonTrackerRobo">
+    <Position X="5.25" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARAABD0ACAAAIAAAJIIAAAAQlAAAAAABAACAQIABAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\habBlockPuzzles\doorTrackers\buttonTrackerRobo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="challengeTrackerRobo">
+    <Position X="9.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQCARBAACAAAGAABZACAAACAAAAUAAwIAACAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\habBlockPuzzles\doorTrackers\challengeTrackerRobo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="doorTrackerPhys">
+    <Position X="11.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABCEACAgAAAAAJAAAAgAAEIAAAAAAAACABIAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\habBlockPuzzles\doorTrackers\doorTrackerphys.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="doorTrackerRobo">
+    <Position X="35.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABCEACAgAAAAAJAAAAgAAEIAAAAAAAACABIAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\habBlockPuzzles\doorTrackers\doorTrackerRobo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="exitBarrier">
+    <Position X="29.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACEAAQAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\mansion\exitBarrier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="mansionComputer">
+    <Position X="37.25" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQIAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\mansion\mansionComputer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="moveButtons">
+    <Position X="29.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAACAAAAgEAAAAAAAEAAAAAAAAIAAAAAACAAI=</HashCode>
+      <FileName>Assets\scripts\puzzles\mansion\moveButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scenetransition">
+    <Position X="24" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\mansion\scenetransition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="towin">
+    <Position X="19.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAEAKAQAAQAABACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\mansion\towin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="mazeDoor">
+    <Position X="22" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\physLabMaze\mazeDoor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mazeNPC">
+    <Position X="17.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAgAAAAAAAAAAAAAEAAAAAAQAAAAwIAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\physLabMaze\mazeNPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mazeSwitches">
+    <Position X="5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAEAAAACAAAAAAAAEQgCAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\physLabMaze\mazeSwitches.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="airLockDoor">
+    <Position X="31.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgBCAACBBAAAAABAAAAAAAEAAAAAgAAAAAAYgAAQ=</HashCode>
+      <FileName>Assets\scripts\specialCases\airLockDoor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="createKeyItems">
+    <Position X="31" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAACAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\createKeyItems.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CREDITSoVER">
+    <Position X="24" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\CREDITSoVER.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="darknessScript">
+    <Position X="29.25" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEgBAAACAEAAAAABQAEAAAAAIEAAAAAAAAEAAIAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\darknessScript.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="dimensionCompleted">
+    <Position X="37.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAgAAAABAAAAAAAEAAAAAQAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\dimensionCompleted.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="glowstick">
+    <Position X="22" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAACAAAAAAABAAAAAQEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\glowstick.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="jumpingCharacter">
+    <Position X="5.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYIAAAAAiAAAAAACAQABAAAAAABCAQAAAABAAAAAGA=</HashCode>
+      <FileName>Assets\scripts\specialCases\jumpingCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="levelTransitionEventBool">
+    <Position X="13.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\levelTransitionEventBool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="levelTransitionFromMultiple">
+    <Position X="33.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQQAAAAgCAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQABA=</HashCode>
+      <FileName>Assets\scripts\specialCases\levelTransitionFromMultiple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="paralaxEffect">
+    <Position X="31.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQBAAAACAAABAAEAAAAAAAAAAAAAAAAAAABAIAAEA=</HashCode>
+      <FileName>Assets\scripts\specialCases\paralaxEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prologue">
+    <Position X="9.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAABAAAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\prologue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="spikeDebug">
+    <Position X="33.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAAAAAAAAAAAEAAAAABAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\spikeDebug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="touchingDirection">
+    <Position X="14" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\touchingDirection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="touchingGround">
+    <Position X="13.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAQAAgBAARIEAAAIAAAgBAAAAQAAAIIAAiKAIEA=</HashCode>
+      <FileName>Assets\scripts\specialCases\touchingGround.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="transitionTracker">
+    <Position X="18" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAgAAAABAAAAgAAAAAAAAIAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\scripts\specialCases\transitionTracker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ventDoor">
+    <Position X="37.25" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgBGEACAAgAAAABAAAAAAAEAAAAAAAAAgAAIAAAA=</HashCode>
+      <FileName>Assets\scripts\specialCases\ventDoor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="wishingWell">
+    <Position X="27.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAABCEACAAAAAAABAAAACCAUQAAAAAAAAAAQIAAIA=</HashCode>
+      <FileName>Assets\scripts\specialCases\wishingWell.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="buttonMoveScript">
+    <Position X="35.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAADAAAAACAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\UX\buttonMoveScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="inventoryManager">
+    <Position X="31" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAgBAAAKAAAAAIABAiAAAACgAAAACKAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\scripts\UX\inventoryManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pausemenu">
+    <Position X="9.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CARAAAAAACAIAgCAIIACAAAAAAMgAAAgIAAAAAABAMA=</HashCode>
+      <FileName>Assets\scripts\UX\pause menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIFollow">
+    <Position X="23.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\UX\UIFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="iinteractable">
+    <Position X="40.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\puzzles\interactor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Idatapersistence">
+    <Position X="40.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\scripts\dataPersistence\Idatapersistence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

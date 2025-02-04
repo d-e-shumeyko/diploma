@@ -1,0 +1,1 @@
+Go to the computer & hit "submit", then solve the puzzle by rotating the tubes with the left mouse button to open the door
